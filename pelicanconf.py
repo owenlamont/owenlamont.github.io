@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Owen Lamont'
-SITENAME = 'Owen Lamont'
-SITEURL = ''
+AUTHOR = "Owen Lamont"
+SITENAME = "Owen Lamont"
+SITEURL = ""
 
-PATH = 'content'
+PATH = "content"
 
-TIMEZONE = 'Australia/Perth'
+TIMEZONE = "Australia/Perth"
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = "en"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -19,17 +19,28 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (("Pelican", "http://getpelican.com/"), ("Python.org", "http://python.org/"))
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ("GitHub", "https://github.com/owenlamont"),
+    ("LinkedIn", "https://www.linkedin.com/in/owen-lamont"),
+    ("Twitter", "https://twitter.com/owenrlamont"),
+    ("YouTube", "https://www.youtube.com/channel/UCYoZjpdGVH2X1MBgRD71lHw")
+)
+
+SOCIAL_WIDGET_NAME = "Follow"
+
+STATIC_PATHS = ["images"]
 
 DEFAULT_PAGINATION = 10
 
+THEME = "notmyidea"
+#THEME = "Flex"
+#THEME = "pelican-blueidea"
+
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
+

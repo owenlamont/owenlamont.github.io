@@ -33,7 +33,13 @@ SOCIAL = (
 
 SOCIAL_WIDGET_NAME = "Follow"
 
-STATIC_PATHS = ["images"]
+STATIC_PATHS = [
+    "images",
+    'extra',
+]
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+}
 
 DEFAULT_PAGINATION = 10
 
